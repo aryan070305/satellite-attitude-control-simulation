@@ -1,16 +1,14 @@
-# IMU Sensor Simulation
+# Satellite Attitude Control Simulation
 
-MATLAB simulation of an IMU system using gyroscope and accelerometer data.
+MATLAB simulation of satellite attitude stabilization using a PID controller.
 
 ## Features
-- Gyroscope angle estimation
-- Accelerometer angle estimation
-- Complementary filter sensor fusion
-- FFT noise comparison
+- Satellite rotational dynamics simulation
+- PID-based attitude stabilization
+- Disturbance response analysis
+- Output graphs for system performance
 
 ## Files
-imu_sensor_simulation.m – main MATLAB code  
-IMU_Sensor_Simulation_Report.pdf – project report  
-figures/ – output graphs
-
-Author: Aryan Yadav
+satellite_attitude_control_pid.m – main MATLAB simulation code  
+Satellite_Attitude_Control_Report.pdf – detailed project report  
+Graphs/ – simulation result plots
